@@ -146,7 +146,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... Send Command /savvy **Bot Made BY 🅝🅘🅚🅗🅘🅛 🅢🅐🅘🅝🅘**🔍\n\n"
+        "Checking status Ok... Send Command /savvy **Bot Made BY STUDY SAVVY**🔍\n\n"
         "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
     )
 
